@@ -280,3 +280,52 @@ footer span{
     display: flex;
     align-self: center;
   } */
+
+ #popup{
+    display: none;
+    border: 2px soolid black;
+    background-color:whitesmoke;
+    height: 300px;
+    width: 450px;
+    position: absolute;
+    top: 200px;
+    left:500px;
+    justify-content:first baseline;
+    flex-direction: column;
+    overflow: hidden;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  #popup h1{
+    text-align: center;
+  }
+  #popup a{
+    display: flex;
+    align-self: center;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    width: 80px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none;
+  }
+  #popup h1{
+    
+    color: black;
+  }
+  #popup p{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  #cross{
+    display: flex;
+    align-self: flex-end;
+    width: 15px;
+    margin-right: 5px;
+    justify-content: center;
+   background-color:black;
+   color: white;
+  }
