@@ -110,3 +110,57 @@
 footer span{
     font: .8em sans-serif;
 }
+#popup{
+  display: none;
+  border: 2px soolid black;
+  background-color:rgb(217, 169, 169);
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  top: 13rem;
+  left:8rem;
+  /* justify-content: center; */
+  /* justify-self: center; */
+  /* justify-content:first baseline; */
+  flex-direction: column;
+  overflow: hidden;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#popup h1{
+  text-align: center;
+  font-size: .7rem;
+}
+#popup a{
+  display: flex;
+  align-self: center;
+  border: 2px solid green;
+  background-color: green;
+  color: white;
+  width: 5.5rem;
+  height: 1.2rem;
+  margin: .24rem;
+  text-align: center;
+  font-family: cursive;
+  text-decoration: none;
+}
+#popup h1{
+  
+  color: black;
+}
+#popup p{
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: .3rem;
+  font-size: .6rem;
+
+}
+#cross{
+  display: flex;
+  align-self: flex-end;
+  width: 1rem;
+
+  margin-right: .1rem;
+  justify-content: center;
+ background-color:black;
+ color: white;
+}
