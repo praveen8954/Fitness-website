@@ -281,17 +281,21 @@ footer span{
     align-self: center;
   } */
 
- #popup{
+  #popup{
     display: none;
     border: 2px soolid black;
-    background-color:whitesmoke;
-    height: 300px;
-    width: 450px;
+    background-color:rgb(217, 169, 169);
+    height: 18rem;
+    width: 26rem;
     position: absolute;
-    top: 200px;
-    left:500px;
-    justify-content:first baseline;
+    top: 13rem;
+    left:28rem;
+    /* justify-content: center; */
+    /* justify-self: center; */
+    /* justify-content:first baseline; */
     flex-direction: column;
+    flex-wrap: wrap;
+    z-index: 999;
     overflow: hidden;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
@@ -299,18 +303,17 @@ footer span{
     text-align: center;
   }
   #popup a{
-     display: flex;
-  align-self: center;
-  border: 2px solid green;
-  background-color: green;
-  color: white;
-  width: 3.3rem;
-  height: .8rem;
-  margin: .24rem;
-  /* text-align: center; */
-  font-family: cursive;
-  text-decoration: none;
-  font-size: .6rem;
+    display: flex;
+    align-self: center;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    width: 6rem;
+    height: 2rem;
+    margin: .5rem;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none;
   }
   #popup h1{
     
@@ -318,14 +321,14 @@ footer span{
   }
   #popup p{
     text-align: center;
-    margin-bottom: 40px;
-    margin-top: 30px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.2rem;
   }
   #cross{
     display: flex;
     align-self: flex-end;
-    width: 15px;
-    margin-right: 5px;
+    width: 2rem;
+    margin-right: 1rem;
     justify-content: center;
    background-color:black;
    color: white;
