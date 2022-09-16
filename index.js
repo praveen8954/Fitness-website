@@ -3,7 +3,7 @@ let cross=document.getElementById('cross')
 console.log(popup)
 // popup.style.display
 function opens(event){
-   setTimeout(popup.style.display='flex',5000)
+   setTimeout(popup.style.display='flex',20000)
  }
 window.addEventListener('load',opens  )
 function close(event){
