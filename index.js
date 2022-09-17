@@ -4,7 +4,7 @@ let body=document.getElementById('body')
 console.log(popup)
 // popup.style.display
 function opens(event){
-   setTimeout(function(){popup.style.display='flex'},20000)
+   setTimeout(function(){popup.style.flex='1'},20000)
    body.setAttribute('class','blur')
    popup.style.display='flex'
  }
